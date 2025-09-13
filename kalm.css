@@ -1,0 +1,15 @@
+body {
+  background-color: light-dark(#fff,#000);
+  color: light-dark(#000,#fff);
+  font: 6.7vw Consolas, monospace;
+}
+:root{color-scheme: light dark}
+table, tr, td{
+  align-items: center;
+  border: 0.125rem solid;
+  border-collapse: collapse;
+  padding: 2vw; 
+}
+table{
+  margin: auto;
+}
