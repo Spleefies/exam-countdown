@@ -1,2 +1,1 @@
-# exam-countdown
-Panic! 
+# Panic! Panic!
