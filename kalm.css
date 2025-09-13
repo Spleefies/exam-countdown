@@ -1,15 +1,20 @@
 body {
   background-color: light-dark(#fff,#000);
   color: light-dark(#000,#fff);
-  font: clamp(0rem,6.6vw,2.5rem) Consolas, monospace;
+  font: clamp(0em,6.6vw,1rem) Consolas, monospace;
+  text-align: center;
 }
 :root{color-scheme: light dark}
 table, tr, td{
-  align-items: center;
   border: 0.125rem solid;
   border-collapse: collapse;
   padding: 1vw; 
 }
 table{
   margin: auto;
+  font: clamp(0em,6.6vw,2.5rem) Consolas, monospace;
+}
+a{
+  text-decoration: underline;
+  color:light-dark(#000,#fff);
 }

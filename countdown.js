@@ -28,5 +28,13 @@ countdown("Oct 21, 2025 08:00:00", "CM1131");
 countdown("Oct 22, 2025 08:00:00", "PC1131");
 countdown("Oct 23, 2025 08:00:00", "MA1133");
 countdown("Oct 27, 2025 08:00:00", "3rdLang");
+//other
+countdown("Sep 19, 2025 16:00:00", "GradedJournal");
+countdown("Sep 29, 2025 10:30:00", "GT6");
+countdown("Sep 15, 2025 18:00:00", "口语呈现");
+countdown("Sep 24, 2025 9:30:00", "grouPresentation");
+
+
+
 
 
