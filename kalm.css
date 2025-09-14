@@ -1,7 +1,7 @@
 body {
   background-color: light-dark(#fff,#000);
   color: light-dark(#000,#fff);
-  font: clamp(0em,6.5vw,2rem) Consolas, monospace;
+  font: clamp(0em,6vw,2rem) Consolas, monospace;
   text-align: center;
 }
 :root{color-scheme: light dark}
@@ -17,4 +17,7 @@ table{
 a{
   text-decoration: underline;
   color:light-dark(#000,#fff);
+}
+.smalltext{
+  font-size: clamp(0em,5vw,2rem);
 }
