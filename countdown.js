@@ -33,6 +33,7 @@ countdown("Sep 19, 2025 16:00:00", "GradedJournal");
 countdown("Sep 29, 2025 10:30:00", "GT6");
 countdown("Sep 15, 2025 18:00:00", "口语呈现");
 countdown("Sep 24, 2025 9:30:00", "grouPresentation");
+countdown("Sep 15, 2025 08:00:00", "GE2");
 
 
 
