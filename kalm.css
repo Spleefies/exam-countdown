@@ -15,8 +15,9 @@ table{
   font: clamp(0em,6.6vw,2.5rem) Consolas, monospace;
 }
 a{
-  text-decoration: underline;
   color:light-dark(#000,#fff);
+  font-weight:100;
+  font-size: 4.7vw;
 }
 .smalltext{
   font-size: clamp(0em,5vw,2rem);
