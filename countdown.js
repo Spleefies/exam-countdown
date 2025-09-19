@@ -31,13 +31,14 @@ countdown("Oct 27, 2025 08:00:00", "3rdLang");
 //other
 countdown("Sep 19, 2025 16:00:00", "GradedJournal");
 countdown("Sep 29, 2025 10:30:00", "GT6");
-countdown("Sep 15, 2025 18:00:00", "口语呈现");
+countdown("Sep 23, 2025 18:00:00", "口语呈现");
 countdown("Sep 24, 2025 09:30:00", "grouPresentation");
 countdown("Sep 31, 2025 09:30:00", "grouPresentation2");
-countdown("Sep 15, 2025 13:15:00", "105GE2");
-countdown("Sep 16, 2025 11:45:00", "106GE2");
+countdown("Sep 25, 2025 08:15:00", "102SAQ");
 countdown("Sep 26, 2025 08:15:00", "102PT");
 countdown("Sep 29, 2025 08:15:00", "106PT");
+countdown("Sep 29, 2025 12:15:00", "102GA");
+
 
 
 
