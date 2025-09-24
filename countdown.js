@@ -30,10 +30,9 @@ countdown("Oct 23, 2025 08:00:00", "MA1133");
 countdown("Oct 27, 2025 08:00:00", "3rdLang");
 //other
 countdown("Sep 29, 2025 10:30:00", "GT6");
-countdown("Sep 25, 2025 08:15:00", "口语呈现");
+countdown("Sep 26, 2025 08:15:00", "口语呈现");
 countdown("Sep 24, 2025 09:30:00", "grouPresentation");
 countdown("Sep 31, 2025 09:30:00", "grouPresentation2");
-countdown("Sep 25, 2025 08:15:00", "102SAQ");
 countdown("Sep 26, 2025 08:15:00", "102PT");
 countdown("Sep 29, 2025 08:15:00", "106PT");
 countdown("Sep 29, 2025 12:15:00", "102GA");
