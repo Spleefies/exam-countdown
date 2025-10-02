@@ -1,4 +1,5 @@
-function countdown(date, id){
+checkbox = document.querySelector("input")
+function countdown(date, id) {
     let examDate = new Date(date).getTime();
     
     let x = setInterval(() => {
@@ -9,15 +10,22 @@ function countdown(date, id){
         let hours = Math.floor((timeLeft % 86400000) / 3600000);
         let minutes = Math.floor((timeLeft % 3600000) / 60000);
         let seconds = Math.floor((timeLeft % 60000) / 1000);
+        let milliseconds = (timeLeft % 1000);
         
         document.getElementById(id).innerHTML =
-            days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-        
+            days + "d " +
+            hours + "h " +
+            minutes + "m " +
+            seconds + "s "
+        if (checkbox.checked == true) {
+            document.getElementById(id).innerHTML += milliseconds + "ms"
+        }
+
         if (timeLeft < 0) {
             clearInterval(x);
             document.getElementById(id).innerHTML = "its alr over lol";
         }
-    }, 1000);
+    }, 1);
 };
 
 countdown("Oct 10, 2025 14:30:00", "EL1131");
@@ -28,11 +36,3 @@ countdown("Oct 21, 2025 08:00:00", "CM1131");
 countdown("Oct 22, 2025 08:00:00", "PC1131");
 countdown("Oct 23, 2025 08:00:00", "MA1133");
 countdown("Oct 27, 2025 08:00:00", "3rdLang");
-
-
-
-
-
-
-
-

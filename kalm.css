@@ -22,3 +22,10 @@ a{
 .smalltext{
   font-size: clamp(0em,5vw,2rem);
 }
+.input{
+  float: right;
+}
+input[type="checkbox"]{
+  width: 3vw;
+  height: 3vw; 
+}
