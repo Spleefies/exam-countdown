@@ -23,12 +23,11 @@ function countdown(date, id) {
 
         if (timeLeft < 0) {
             clearInterval(x);
-            document.getElementById(id).innerHTML = "its alr over lol";
+            document.getElementById(id).parentElement.style.display = 'none'
         }
     }, 1);
 };
 
-countdown("Oct 10, 2025 14:30:00", "EL1131");
 countdown("Oct 13, 2025 08:00:00", "CL1332");
 countdown("Oct 13, 2025 14:00:00", "MT");
 countdown("Oct 17, 2025 08:00:00", "BL1131");
