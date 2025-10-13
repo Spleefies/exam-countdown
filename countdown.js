@@ -27,9 +27,6 @@ function countdown(date, id) {
         }
     }, 1);
 };
-
-countdown("Oct 13, 2025 08:00:00", "CL1332");
-countdown("Oct 13, 2025 14:00:00", "MT");
 countdown("Oct 17, 2025 08:00:00", "BL1131");
 countdown("Oct 22, 2025 08:00:00", "CM1131");
 countdown("Oct 23, 2025 08:00:00", "PC1131");
