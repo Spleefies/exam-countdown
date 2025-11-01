@@ -27,8 +27,5 @@ function countdown(date, id) {
         }
     }, 1);
 };
-countdown("Oct 17, 2025 08:00:00", "BL1131");
-countdown("Oct 22, 2025 08:00:00", "CM1131");
-countdown("Oct 23, 2025 08:00:00", "PC1131");
-countdown("Oct 24, 2025 08:00:00", "MA1133");
-countdown("Oct 29, 2025 08:00:00", "3rdLang");
+countdown("Nov 10, 2025 08:00:00", "ProgressReport");
+countdown("Nov 10, 2025 13:00:00", "SIL");
